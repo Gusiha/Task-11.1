@@ -4,7 +4,6 @@ using Task_11._1;
 FirstClass firstClass = new FirstClass();
 PropertyInfo[] props = typeof(FirstClass).GetProperties();
 
-
 foreach (var item in props)
 {
     try
@@ -20,11 +19,5 @@ foreach (var item in props)
     {
         Console.WriteLine($"{item.Name} - Атрибут NameAttribute отсутствует");
         continue;
-
     }
-
-   
-    //var attr = (NameAttribute)arr[0];
-    //Console.WriteLine(attr.Description);
-    //Console.WriteLine($"{item.Name} - {item}");
 }
