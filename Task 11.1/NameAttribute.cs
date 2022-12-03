@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Task_11._1
 {
     [AttributeUsage(AttributeTargets.Property)]
-    internal class NameAttribute : Attribute
+    public class NameAttribute : Attribute
     {
         public string Description { get; set; }
         public NameAttribute(string number)

@@ -9,25 +9,25 @@ namespace Task_11._1
     internal class FirstClass
     {
         [Name("Первое свойство")]
-        public string first { get; set; }
-        //[Name("Второе свойство")]
-        public string second { get; set; }
+        public string First { get; set; }
+        [Name("Второе свойство")]
+        public string Second { get; set; }
         [Name("Третье свойство")]
-        public string third { get; set; }
+        public string Third { get; set; }
         [Name("Четвертое свойство")]
-        public string fourth { get; set; }
+        public string Fourth { get; set; }
         [Name("Пятое свойство")]
-        public string fifth { get; set; }
-        [Name("Шестое свойство")]
-        public string sixth { get; set; }
+        public string Fifth { get; set; }
+        //[Name("Шестое свойство")]
+        public string Sixth { get; set; }
         [Name("Седьмое свойство")]
-        public string seventh { get; set; }
-        [Name("Восьмое свойство")]
-        public string eighth { get; set; }
+        public string Seventh { get; set; }
+        //[Name("Восьмое свойство")]
+        public string Eighth { get; set; }
         [Name("Девятое свойство")]
-        public string ninth { get; set; }
+        public string Ninth { get; set; }
         [Name("Десятое свойство")]
-        public string tenth { get; set; }
+        public string Tenth { get; set; }
 
         public FirstClass()
         {

@@ -13,11 +13,11 @@ foreach (var item in props)
             NameAttribute customAttr = (NameAttribute)item.GetCustomAttribute(typeof(NameAttribute));
             Console.WriteLine($"{item.Name} - {customAttr.Description}");
         }
-        else throw new NullReferenceException();
+        else
+            throw new NullReferenceException();
     }
     catch (NullReferenceException)
     {
         Console.WriteLine($"{item.Name} - Атрибут NameAttribute отсутствует");
-        continue;
     }
 }
